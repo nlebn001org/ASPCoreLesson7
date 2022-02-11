@@ -1,0 +1,16 @@
+﻿@inject ASPCoreLesson7AdditionalTask.Services.IWebClock ClockService
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Layout</title>
+</head>
+<body>
+    <script type="text/javascript">
+        setTimeout(function () {
+            location = ''
+        }, 1000);
+    </script>
+    @ClockService.GetTime();
+    @RenderBody()
+</body>
+</html>

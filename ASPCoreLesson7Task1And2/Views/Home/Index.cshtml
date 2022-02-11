@@ -1,0 +1,37 @@
+﻿@using ASPCoreLesson7Task1And2.ViewModels
+@model People
+
+@{ 
+    Layout = "~/Views/_Masterpage.cshtml";
+}
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>People</title>
+</head>
+<body>
+    @*@Html.Partial("_PartialImages")*@
+
+    <div class="customers">
+        @for (int i = 0; i < Model.Customers.Count(); i++)
+        {
+            <h1>List of Customers</h1>
+            <h2>Customer #@i</h2>
+            <h3>Customer ID: @Model.Customers[i].CustomerID</h3>
+            <h3>Customer name: @Model.Customers[i].Name</h3>
+            <h3>Customer surname: @Model.Customers[i].Surname</h3>
+        }
+    </div>>
+
+    <div class="">
+        @for (int i = 0; i < Model.Workers.Count(); i++)
+        {
+            <h1>List of Workers</h1>
+            <h2>Worker #@i</h2>
+            <h3>Worker ID: @Model.Workers[i].WorkerID</h3>
+            <h3>Worker name: @Model.Workers[i].Name</h3>
+            <h3>Worker surname: @Model.Workers[i].Surname</h3>
+        }
+    </div>
+
+</body>
+</html>

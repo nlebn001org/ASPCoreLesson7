@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASPCoreLesson7Task1And2", "ASPCoreLesson7Task1And2\ASPCoreLesson7Task1And2.csproj", "{0B8158E4-EA50-4901-8DD5-17E9FB7F32A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPCoreLesson7AdditionalTask", "ASPCoreLesson7AdditionalTask\ASPCoreLesson7AdditionalTask.csproj", "{BD80BA72-400D-47F8-86AC-E4619875C043}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B8158E4-EA50-4901-8DD5-17E9FB7F32A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B8158E4-EA50-4901-8DD5-17E9FB7F32A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B8158E4-EA50-4901-8DD5-17E9FB7F32A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B8158E4-EA50-4901-8DD5-17E9FB7F32A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD80BA72-400D-47F8-86AC-E4619875C043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD80BA72-400D-47F8-86AC-E4619875C043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD80BA72-400D-47F8-86AC-E4619875C043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD80BA72-400D-47F8-86AC-E4619875C043}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C13C5C8-DD20-4B28-A5DC-4F51955A895E}
+	EndGlobalSection
+EndGlobal
